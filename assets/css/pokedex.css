@@ -125,6 +125,12 @@
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.pokemon .detail img:hover {
+    transform: scale(1.2);
 }
 
 .pagination {
